@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Igrica IKS OKS </title>
+		<link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+		<!-- Ovo radim preko tutorijala posto sam jos nov u pisanju malo ozbiljnijeg koda za programiranje -->
+		<link type="text/css" rel="stylesheet" href="stil.css">
+		<script src="skripta.js"></script>
+		<meta charset="UTF-8">
+	</head>
+	
+	<body>
+		<h2 id="poruka-u-igri"> X & O </h2>
+		<div class="ram">
+				<div id="red-1">
+					
+						<div onclick="play(this,1);"></div>
+						<div onclick="play(this,2);"></div>
+						<div onclick="play(this,4);"></div>
+				
+				</div>
+				<div id="red-2">
+					
+						<div onclick="play(this,8);"></div>
+						<div onclick="play(this,16);"></div>
+						<div onclick="play(this,32);"></div>
+					
+				</div>
+				<div id="red-3">
+					
+						<div onclick="play(this,64);"></div>
+						<div onclick="play(this,128);"></div>
+						<div onclick="play(this,256);"></div>
+						
+				</div>
+				
+		</div>
+		<button onclick="ponovo()" style="height: 45px;width: 100px; position: relative; right: 450px; font-size: 18px;">Ispočetka </button>
+	</body>
+
+</html>

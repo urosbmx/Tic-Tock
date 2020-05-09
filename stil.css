@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Rock Salt', cursive;
+	user-select: none;
+	
+	/*Ovo sluzi da korsnik ne moze da selektuje tekst u  */
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+	
+}
+html{background-image:url(slike/mala.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	}
+
+h2{
+	font-size:30px;
+	text-align: center;
+	
+}
+
+body {
+	background-image: url(slike/crumpled-paper.jpg);
+	background-repeat: repeat;
+	width: 1000px;
+	margin: 10px auto;
+	text-align: center;
+	padding: 10px;
+	
+}
+
+
+div[id^="red-"] div{
+	border: 1px solid black;
+	width: 200px;
+	height: 200px;
+	float: left;
+	overflow: hidden;
+}
+div[id^="red-"]{
+	clear: float;
+	width: 608px;
+	box-sizing: border-box;
+	overflow: hidden;
+
+}
+div.ram{
+	
+	width: 608px;
+	overflow: auto;
+	margin: 0 auto;
+}
+/* Ovim delom brisemo linije sa strane da bi dobili tablu za x ox */
+div[id^="red-"] div:first-child{border-left: none;}
+div[id^="red-"] div:last-child{border-right: none;}
+div[id="red-1"] div{border-top: none;}
+div[id="red-3"] div{border-bottom: none;}
+
+span{
+	font-size: 75px;
+	text-align: center;
+	
+}
