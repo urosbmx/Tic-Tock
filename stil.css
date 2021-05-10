@@ -63,3 +63,9 @@ span{
 	text-align: center;
 	
 }
+.try_again{
+    position: relative;
+    right: 450px;
+    font-size: 18px;
+    padding: 3px;
+}
